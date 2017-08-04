@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 12:26+0200\n"
+"POT-Creation-Date: 2017-08-04 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,6 +69,18 @@ msgid ""
 "the rules before building!\n"
 "Use the /rules command\n"
 "to see them."
+msgstr ""
+
+#: init.lua
+msgid "Teleporting to spawn..."
+msgstr ""
+
+#: init.lua
+msgid "ERROR: "
+msgstr ""
+
+#: init.lua
+msgid "The spawn point is not set!"
 msgstr ""
 
 #: init.lua
@@ -162,10 +174,6 @@ msgid ""
 msgstr ""
 
 #: init.lua
-msgid "ERROR: "
-msgstr ""
-
-#: init.lua
 msgid "No keyword supplied"
 msgstr ""
 
@@ -194,14 +202,6 @@ msgstr ""
 
 #: init.lua
 msgid "Teleport to the spawn"
-msgstr ""
-
-#: init.lua
-msgid "Teleporting to spawn..."
-msgstr ""
-
-#: init.lua
-msgid "The spawn point is not set!"
 msgstr ""
 
 #: init.lua

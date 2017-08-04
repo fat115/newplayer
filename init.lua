@@ -145,10 +145,10 @@ minetest.register_on_player_receive_fields(function(player,formname,fields)
 				end
 				local spawn = minetest.setting_get_pos("spawnpoint_interact")
 				if spawn then
-					minetest.chat_send_player(name,"Teleporting to spawn...")
+					minetest.chat_send_player(name,S("Teleporting to spawn..."))
 					player:setpos(spawn)
 				else
-					minetest.chat_send_player(name,newplayer.colorize("#FF0000","ERROR: ").."The spawn point is not set!")
+					minetest.chat_send_player(name,newplayer.colorize("#FF0000",S("ERROR: "))..S("The spawn point is not set!"))
 				end
 				local form =    "size[5,3]"..
 						"label[1,0;"..S("Thank you for agreeing").."]"..

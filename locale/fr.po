@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 12:26+0200\n"
+"POT-Creation-Date: 2017-08-04 12:40+0200\n"
 "PO-Revision-Date: 2017-08-04 12:28+0200\n"
 "Last-Translator: fat115 <fat115@framasoft.org>\n"
 "Language-Team: \n"
@@ -80,6 +80,18 @@ msgstr ""
 "Vous devez accepter les règles.\n"
 "Tapez la commande /rules\n"
 "pour les consulter."
+
+#: init.lua
+msgid "Teleporting to spawn..."
+msgstr "Téléportation au spawn ..."
+
+#: init.lua
+msgid "ERROR: "
+msgstr "ERREUR : "
+
+#: init.lua
+msgid "The spawn point is not set!"
+msgstr "Le point de départ n'est pas défini !"
 
 #: init.lua
 msgid "Thank you for agreeing"
@@ -181,10 +193,6 @@ msgstr ""
 "interact"
 
 #: init.lua
-msgid "ERROR: "
-msgstr "ERREUR : "
-
-#: init.lua
 msgid "No keyword supplied"
 msgstr "Aucun mot-clé saisi"
 
@@ -216,14 +224,6 @@ msgstr " est introuvable"
 #: init.lua
 msgid "Teleport to the spawn"
 msgstr "Téléportation au spawn"
-
-#: init.lua
-msgid "Teleporting to spawn..."
-msgstr "Téléportation au spawn ..."
-
-#: init.lua
-msgid "The spawn point is not set!"
-msgstr "Le point de départ n'est pas défini !"
 
 #: init.lua
 msgid "In order to build,"
